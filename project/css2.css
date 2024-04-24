@@ -1,0 +1,38 @@
+#wrapper {
+  background-color: #dce1e3;
+}
+
+header,
+footer {
+  background-color: #f7786b;
+  margin: 0;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #f7cac9;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #f7fec9;
+  color: black;
+}
+@media (min-width: 600px) {
+  header,
+  footer {
+    background-color: #fff;
+  }
+}
+@media (min-width: 1024px) {
+  header,
+  footer {
+    background-color: #000;
+  }
+}
